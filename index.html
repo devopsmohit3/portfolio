@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Thakur | Senior DevOps Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Mohit<span>.dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">Senior DevOps Engineer</span>
+                <h1>Hi, I'm <span class="highlight">Mohit Thakur</span></h1>
+                <h2>Platform Engineering | SRE</h2>
+                <p class="hero-description">
+                    Building production-grade cloud infrastructure for enterprise clients including T-Mobile, Samsung, and Verizon. 
+                    Specialist in multi-tenant Kubernetes platforms on AWS, GitOps delivery, and Infrastructure as Code.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="code-title">eks_cluster.py</span>
+                    </div>
+                    <pre><code><span class="keyword">cluster</span> = <span class="variable">eks.Cluster</span>(
+    <span class="string">"devops-cluster"</span>,
+    version=<span class="string">"1.29"</span>,
+    vpc_id=vpc.vpc_id,
+    subnet_ids=vpc.private_subnet_ids,
+)
+
+<span class="comment"># Karpenter for auto-scaling</span>
+<span class="keyword">Karpenter</span>(
+    <span class="string">"karpenter"</span>,
+    cluster=cluster,
+)
+
+<span class="comment"># Result: 40% better resource utilisation</span></code></pre>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get to know me</span>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p>
+                        Senior DevOps Engineer with 10+ years of experience building production-grade 
+                        cloud infrastructure for enterprise clients including T-Mobile, Samsung, and Verizon.
+                    </p>
+                    <p>
+                        Specialist in multi-tenant Kubernetes platforms on AWS, GitOps delivery with ArgoCD & FluxCD, 
+                        and Infrastructure as Code using Pulumi and Terraform. Passionate about automation, 
+                        observability, and building reliable systems at scale.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">35%</span>
+                            <span class="stat-label">Faster Deployments</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">40%</span>
+                            <span class="stat-label">Better Resource Utilisation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <h3>Core Expertise</h3>
+                    <ul class="about-list">
+                        <li>☁️ AWS (EKS, ECR, VPC, RDS, Lambda)</li>
+                        <li>🐳 Kubernetes (EKS, Kops, Karpenter, KEDA)</li>
+                        <li>🔧 Pulumi & Terraform (IaC)</li>
+                        <li>🚀 GitOps (ArgoCD, FluxCD, Kustomize)</li>
+                        <li>📊 Observability (Datadog, Mezmo)</li>
+                        <li>🔒 Security (SOC 2, Vault, SOPS)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Technical expertise</span>
+                <h2>Skills & Tools</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Cloud</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">AWS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Kubernetes</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">EKS</span>
+                        <span class="skill-item">Karpenter</span>
+                        <span class="skill-item">KEDA</span>
+                        <span class="skill-item">Helm</span>
+                        <span class="skill-item">HPA</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>GitOps & CD</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">ArgoCD</span>
+                        <span class="skill-item">FluxCD</span>
+                        <span class="skill-item">Kustomize</span>
+                        <span class="skill-item">GitHub Actions</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Infrastructure as Code</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Pulumi (Python)</span>
+                        <span class="skill-item">Terraform</span>
+                        <span class="skill-item">CloudFormation</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Observability</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Datadog</span>
+                        <span class="skill-item">Mezmo</span>
+                        <span class="skill-item">CloudWatch</span>
+                        <span class="skill-item">OpenSearch</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Bash</span>
+                        <span class="skill-item">YAML</span>
+                        <span class="skill-item">HCL</span>
+                        <span class="skill-item">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Featured work</span>
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">☁️</div>
+                        <h3>Multi-Tenant SaaS Platform on AWS</h3>
+                    </div>
+                    <p class="project-description">
+                        Built and owned end-to-end platform infrastructure for a multi-tenant SaaS product — 
+                        17+ microservices across 12 isolated environments with per-tenant namespaces, 
+                        configs, and CI/CD pipelines.
+                    </p>
+                    <div class="project-tags">
+                        <span>AWS EKS</span>
+                        <span>Pulumi</span>
+                        <span>ArgoCD</span>
+                        <span>ECR</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Case Study →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🚀</div>
+                        <h3>GitOps Delivery Platform</h3>
+                    </div>
+                    <p class="project-description">
+                        Led GitOps adoption using ArgoCD, FluxCD, and Kustomize — reduced deployment 
+                        time by 35%, eliminated configuration drift, and enabled self-service releases 
+                        with full audit trails.
+                    </p>
+                    <div class="project-tags">
+                        <span>ArgoCD</span>
+                        <span>FluxCD</span>
+                        <span>Kustomize</span>
+                        <span>Vault</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Code →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📊</div>
+                        <h3>Cost-Optimised Autoscaling</h3>
+                    </div>
+                    <p class="project-description">
+                        Implemented Karpenter for intelligent node provisioning and KEDA for workload 
+                        autoscaling via SQS queue depth and custom metrics — improved resource 
+                        utilisation by 40%.
+                    </p>
+                    <div class="project-tags">
+                        <span>Karpenter</span>
+                        <span>KEDA</span>
+                        <span>SQS</span>
+                        <span>HPA</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Case Study →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🏗️</div>
+                        <h3>Pulumi IaC — Full AWS Stack Automation</h3>
+                    </div>
+                    <p class="project-description">
+                        Converted entire AWS infrastructure from manual provisioning to Pulumi (Python) IaC 
+                        covering EKS, VPC, S3, CloudFront, RDS, Route 53, OpenSearch, and IAM — 
+                        cut environment setup from days to under 2 hours.
+                    </p>
+                    <div class="project-tags">
+                        <span>Pulumi</span>
+                        <span>Python</span>
+                        <span>Terraform</span>
+                        <span>AWS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Code →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Career journey</span>
+                <h2>Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Oct 2020 — Present</span>
+                        <h3>Senior DevOps Engineer</h3>
+                        <span class="timeline-company">Scopeworker LLC | Remote, US-Based</span>
+                        <p>
+                            Own end-to-end platform infrastructure for multi-tenant SaaS on AWS — 17+ microservices 
+                            across 12 isolated environments. Led GitOps adoption (ArgoCD, FluxCD), converted to 
+                            Pulumi IaC, implemented Karpenter & KEDA autoscaling, and maintained 99.9%+ uptime.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2018 — Sep 2020</span>
+                        <h3>DevOps Engineer</h3>
+                        <span class="timeline-company">Click Labs | Chandigarh, India</span>
+                        <p>
+                            Replaced manual AWS provisioning with Terraform IaC, reduced environment setup 
+                            from 3+ days to under 4 hours. Executed zero-downtime on-premise to AWS migrations, 
+                            built CI/CD pipelines with Jenkins, and provisioned EKS/Kops clusters.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jun 2016 — Aug 2018</span>
+                        <h3>DevOps Engineer</h3>
+                        <span class="timeline-company">Netsmartz | Chandigarh, India</span>
+                        <p>
+                            Deployed and managed production AWS infrastructure (EC2, S3, IAM, VPC, CloudWatch) 
+                            with 99%+ uptime across 5+ concurrent client projects. Reduced incident response 
+                            time by 50% through proactive monitoring. Introduced Docker containerisation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Academic background</span>
+                <h2>Education</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2013 — 2016</span>
+                        <h3>Master of Computer Applications (MCA)</h3>
+                        <span class="timeline-company">Punjab Technical University, Punjab, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Let's connect</span>
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, 
+                        or opportunities to be part of your vision.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:mohitdevops3@gmail.com" class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>mohitdevops3@gmail.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/mohit-thakur-devops" target="_blank" class="contact-item">
+                            <span class="contact-icon">💼</span>
+                            <span>linkedin.com/in/mohit-thakur-devops</span>
+                        </a>
+                        <a href="#" class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>+91-7876597964</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Mohit Thakur. Senior DevOps Engineer | Platform Engineering | SRE</p>
+                <div class="footer-links">
+                    <a href="https://linkedin.com/in/mohit-thakur-devops" target="_blank">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                    <a href="mailto:mohitdevops3@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
