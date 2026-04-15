@@ -1,0 +1,120 @@
+================================================================================
+MOHIT THAKUR
+Senior DevOps Engineer
+================================================================================
+
+Email: mohitdevops3@gmail.com | Phone: +91-7876597964
+LinkedIn: linkedin.com/in/mohit-thakur-devops | GitHub: github.com/devopsmohit3
+Location: Gurugram, Haryana, India | Open to: Remote / US-Based Companies (US Timezone)
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+
+Senior DevOps Engineer with 9+ years of experience specializing in scalable cloud infrastructure, automation, and CI/CD pipelines. Expert in AWS, Azure, Kubernetes, Terraform, Pulumi, Docker, ArgoCD, and FluxCD. Proven track record of reducing deployment times by 80%, optimizing cloud costs by 40%, and maintaining 99.9% uptime. Seeking remote opportunities with US-based or international companies.
+
+--------------------------------------------------------------------------------
+CORE COMPETENCIES
+--------------------------------------------------------------------------------
+
+Cloud Platforms: AWS (EKS, ECS, S3, RDS, Lambda, CloudFront, VPC, IAM), Azure, GCP
+Containerization: Kubernetes, Docker, Helm, Kustomize
+CI/CD Tools: ArgoCD, FluxCD, GitHub Actions, GitLab CI, Jenkins
+Infrastructure as Code: Terraform, Pulumi, CloudFormation
+Monitoring & Observability: Datadog, Prometheus, Grafana, CloudWatch, OpenSearch
+Scripting: Python, Bash, Go, YAML, HCL
+Security: Vault, SOC 2 compliance, security automation, OPA, Falco, Istio
+Platform Engineering: Internal Developer Platforms, Self-Service Tools, GitOps
+Autoscaling: Karpenter, KEDA, HPA, Cluster Autoscaler
+Databases: PostgreSQL, MySQL, Redis, MongoDB, Amazon RDS
+
+--------------------------------------------------------------------------------
+PROFESSIONAL EXPERIENCE
+--------------------------------------------------------------------------------
+
+SENIOR DEVOPS ENGINEER
+ScopeWorker LLC | Gurugram, India (Remote-First Company)
+Oct 2020 - Present
+
+- Lead all infrastructure activities for a remote-first SaaS platform serving enterprise clients
+- Designed and implemented multi-cloud Kubernetes infrastructure on AWS EKS and Azure AKS
+- Reduced deployment time by 80% through CI/CD pipeline optimization and parallel execution
+- Implemented GitOps practices using ArgoCD and FluxCD with Kustomize for environment management
+- Built internal developer platform enabling self-service environment provisioning (90% reduction in provisioning time)
+- Achieved 99.9% uptime across all production environments through automated failover and monitoring
+- Reduced cloud infrastructure costs by 40% through right-sizing, reserved instances, and Karpenter implementation
+- Managed 17+ microservices across 12 isolated environments with per-tenant namespaces
+- Implemented zero-trust security architecture with service mesh, Vault secret management, and automated security scanning
+- Led SOC 2 compliance implementation with zero security incidents in 18+ months
+- Collaborate with distributed teams across multiple timezones (US, Europe)
+
+Key Technologies: AWS EKS, Azure AKS, ArgoCD, FluxCD, Terraform, Pulumi, Python, Vault, Datadog, Karpenter, KEDA
+
+DEVOPS ENGINEER
+Click Labs | Chandigarh, India
+Aug 2018 - Sep 2020
+
+- Managed CI/CD pipelines for 20+ microservices using Jenkins, GitHub Actions, and Docker
+- Implemented Infrastructure as Code using Terraform, reducing environment setup from 3+ days to under 4 hours
+- Set up comprehensive monitoring and alerting using Prometheus and Grafana dashboards
+- Automated security scanning in CI/CD pipelines to identify vulnerabilities early
+- Executed zero-downtime migrations from on-premise infrastructure to AWS cloud
+- Provisioned and maintained EKS and KOPS clusters for production workloads
+- Developed Python and Bash automation scripts for routine operational tasks
+- Reduced infrastructure costs by 30% through optimized resource allocation
+
+Key Technologies: AWS, Kubernetes, Jenkins, Terraform, Docker, Prometheus, Grafana, Python, Bash
+
+DEVOPS ENGINEER
+Netsmartz | Chandigarh, India
+Jun 2016 - Aug 2018
+
+- Deployed and managed production AWS infrastructure (EC2, S3, IAM, VPC, CloudWatch) for 5+ concurrent client projects
+- Maintained 99%+ uptime across all client production environments
+- Reduced incident response time by 50% through proactive monitoring and automated alerting
+- Introduced Docker containerization, reducing deployment failures by 40%
+- Built and maintained CI/CD pipelines for multiple client applications
+- Created documentation and runbooks for operational procedures
+- Participated in on-call rotations with 平均 15-minute response time
+
+Key Technologies: AWS EC2, S3, Docker, Jenkins, Linux, Shell Scripting
+
+--------------------------------------------------------------------------------
+KEY ACHIEVEMENTS
+--------------------------------------------------------------------------------
+
+- Operational Excellence Award - Scopeworker 2025
+- 40% cloud cost reduction through optimization and reserved instances
+- 99.9% uptime maintained across all production environments
+- 80% faster deployment times through pipeline optimization
+- Zero security incidents in 18+ months (SOC 2 compliant)
+- 10x daily deployments enabled through CI/CD improvements
+- 90% reduction in environment provisioning time via self-service platform
+
+--------------------------------------------------------------------------------
+EDUCATION
+--------------------------------------------------------------------------------
+
+Master of Computer Applications (MCA)
+CGC College of Engineering, Landran
+2013 - 2016
+
+--------------------------------------------------------------------------------
+CERTIFICATIONS (In Progress)
+--------------------------------------------------------------------------------
+
+- AWS Solutions Architect Associate (Planned)
+- CKA - Certified Kubernetes Administrator (Planned)
+- HashiCorp Terraform Associate (Planned)
+
+--------------------------------------------------------------------------------
+ADDITIONAL INFORMATION
+--------------------------------------------------------------------------------
+
+- Timezone: IST (UTC+5:30) - Flexible for US business hours
+- Work Authorization: Indian Citizen (Open to sponsorship discussions)
+- Remote Work: Strongly preferred, experienced with distributed teams
+- Communication: Proficient in English (verbal and written)
+- Tools: Slack, Zoom, Microsoft Teams, Jira, Confluence, GitHub, GitLab
+
+================================================================================
